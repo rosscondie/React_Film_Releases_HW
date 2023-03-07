@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 const FilmBox = () => {
     
@@ -28,10 +28,11 @@ const FilmBox = () => {
               url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
             }
           ]);
+          
+          return(
+              <h1>Films</h1>
+          )
 }
 
-    return(
-        <h1>Films</h1>
-    )
 
 export default FilmBox;
