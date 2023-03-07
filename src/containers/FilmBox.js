@@ -33,7 +33,7 @@ const FilmBox = () => {
           
           return(
             <>
-            <h1>Upcoming Film Releases for UK</h1>
+            <h2>Upcoming Film Releases for UK</h2>
             <hr/>
             <FilmList films={films}></FilmList>
             <hr/>
