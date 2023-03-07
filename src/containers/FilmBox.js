@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import FilmList from "../components/FilmList";
+import Button from "../components/Button";
 
 const FilmBox = () => {
     
@@ -30,7 +32,13 @@ const FilmBox = () => {
           ]);
           
           return(
-              <h1>Films</h1>
+            <>
+            <h1>Upcoming Film Releases for UK</h1>
+            <hr/>
+            <FilmList films={films}></FilmList>
+            <hr/>
+            <Button /> 
+            </>
           )
 }
 
